@@ -84,12 +84,12 @@ model = load_model('<name>.h5')
 
 and adjust `speed_limit` to any number between 0 and 30.
 
-### 2. `drive.py`
+### 2. `test.py`
 
 Run the following from Anaconda Prompt + download any dependencies that come up.
 
 ```
-python drive.py
+python test.py
 ```
 
 ### 3. Starting the Self Driving Car Simulator in Autonomous Mode
