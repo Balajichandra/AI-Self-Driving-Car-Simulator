@@ -2,6 +2,9 @@
 
 The purpose of this repository is to use a Nvidia model to control an autonomous car. The model uses image data as input and uses polynomial regression to predict the steering angle. 
 
+## Libraries & Simulator Used
+Libraries --> numpy,pandas,matplotlib,sklearn,opencv,keras,tensorflow
+Simulator --> Nvdia Self Driving Car Simulator by Udacity
 ## Videos showing Successful Model
 
 ### Autonomous Driving on Track-1
@@ -19,7 +22,7 @@ The file `Untitled1.ipynb` does the following:
 
 ### 1. Download, store, and clean data from manual drives
 
-The program first retrieves csv data representing the `steering angle`, `throttle`, `reverse` and `speed`, as well as the images corresponding camera images (left, center and right). The program then cleans and unbiases the data. The data comes from manual drives stored at https://github.com/tylerlum/self-driving-car-data-track-1
+The program first retrieves csv data representing the `steering angle`, `throttle`, `reverse` and `speed`, as well as the images corresponding camera images (left, center and right). The program then cleans and unbiases the data.
 
 ![alt text](images/Unbias_Data.png?raw=true "Unbias Data")
 
