@@ -1,6 +1,6 @@
 # self_driving_car
 
-The purpose of this repository is to use a Nvidia model to control an autonomous car. The model uses image data as input and uses polynomial regression to predict the steering angle. 
+In this project we are going to learn how to train a self driving car using Convolution neural networks CNN. We will be using the open source Self driving car simulator provided by Udacity that is used in their Self driving car Nano degree program. Using this simulator we will first drive the car and collect data. Then we will train a CNN model to learn this behavior and then test it back on the simulator. The model we will use was proposed by NVIDIA. They used this model to train a real car data and got promising results when they drove it autonomously
 
 ## Libraries & Simulator Used
 Libraries --> numpy,pandas,matplotlib,sklearn,opencv,keras,tensorflow
